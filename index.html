@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Portfolio</title>
+        <style>
+            body{
+                background-image: url(picture/backgroundpic2.jpg);
+                background-position: center;
+                background-size: cover;
+            }
+            .logo{
+                margin-top: 20px;
+                margin-left: 30px;
+                width:200px;
+                height: 100px;
+            }
+            .header{
+                 
+                position: absolute;
+                top: 0px;
+                left: 0px;
+                right: 0px;
+                display: grid;
+                grid-template-columns: 1fr 3fr;
+
+            }
+             
+            .r{
+                
+                font-family: Arial, Helvetica, sans-serif;
+                font-weight: bold; 
+            }
+            .r ul{
+                display: grid;
+                grid-template-columns: 1fr 1fr 1fr 1fr;
+                position: relative;
+            }
+            li{
+                 
+                list-style: none;
+                padding: 15px;
+                font-size: 20px;
+                text-align: center;
+                border-radius: 20px;
+            }
+            li:hover{
+                background-color: rgb(132, 71, 223);
+                
+            }
+            a{
+                text-decoration: none;
+                color: black ;
+                font-family: Arial, Helvetica, sans-serif;
+                font-weight: bold;
+                font-size: 25px;
+            }
+             
+            .content{
+                margin-top: 100px;
+                margin-left: 50px;
+                display: grid;
+                grid-template-columns: 1fr 2fr;
+            }
+            .content p{
+                font-family: Arial, Helvetica, sans-serif;
+                font-weight: bold;
+                font-size: 20px;
+            }
+            .content h1{
+                font-family: Arial, Helvetica, sans-serif;
+                font-weight: bold;
+                font-size: 50px;
+                width: 200px;
+            } 
+            .twitter {
+                width: 40px;
+                height: 40px;
+                background-image: url(picture/twiter.png);
+                background-position: center;
+                background-size: cover;
+                border: none;
+                border-radius: 20px;
+                cursor: pointer; 
+            } 
+            .insta{
+                width: 40px;
+                height: 40px;
+                background-image: url(picture/insta.png);
+                background-position: center;
+                background-size: cover; 
+                border: none;
+                margin-left: 10px; 
+                border-radius: 20px;
+                cursor: pointer;   
+            }   
+            .facebook{
+                width: 40px;
+                height: 40px;
+                background-image: url(picture/facebook.png);
+                background-position: center;
+                background-size: cover; 
+                border: none;
+                margin-left: 10px; 
+                border-radius: 20px;
+                cursor: pointer; 
+            }
+            .c1{
+                margin-left: 100px;
+                margin-top: 100px   ;
+            }
+            .c2{
+                margin-left: 300px;
+                width: 300px;
+                height: 400px;
+                background-image: url(picture/me1.jpg);
+                background-position: center;
+                background-size: cover;
+                border-radius: 70px;
+
+            }
+        </style>
+    </head>
+    <body>
+        <div class="header">
+            <div class="l">
+                <img src="picture/logo.png" class="logo">
+            </div>
+            <div class="r">
+                <ul >
+                    <li>  <a href="">Home</a>             </li>
+                    <li>  <a href="">About</a>            </li>
+                    <li>  <a href="">Service</a>          </li>
+                    <li>  <a href=""  >Contact</a></li>
+                    
+                </ul>
+            </div>
+        </div>
+        <div class="content">
+            <div class="c1">
+                <p>Hello,I am</p>
+                <h1>Surya S</h1>
+                <button class="twitter"></button>
+                <button class="insta"></button>
+                <button class="facebook"></button>
+            </div>
+            <div class="c2"></div>
+        </div> 
+    </body>
+</html>
